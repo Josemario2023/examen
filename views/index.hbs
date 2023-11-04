@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Diseñador Freelancer</title>
+    <link rel="preload" href="/Proyecto/assent/css/normalize.css" as="style">
+    <link rel="stylesheet" href="/Proyecto/assent/css/normalize.css">
+    <link href="https://fonts.googleapis.com/css2?family=Krub:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="preload" href="/Proyecto/assent/css/styles.css" as="style">
+    <link href="/Proyecto/assent/css/styles.css" rel="stylesheet">
+</head>
+<body>
+   {{> header}}
+
+   {{> nav}}
+    
+        
+    <section class="hero">
+        <div class="contenido-hero">
+            <h2>Diseño y Desarrollo <span> José Mario Lucas Contreras</span></h2> 
+            <div class="ubicacion">
+                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-map-pin" width="88" height="88" viewBox="0 0 24 24" stroke-width="1.5" stroke="#FFC107" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                    <path stroke="none" d="M0 0h24v24H0z"/>
+                    <circle cx="12" cy="11" r="3" />
+                    <path d="M17.657 16.657L13.414 20.9a1.998 1.998 0 0 1 -2.827 0l-4.244-4.243a8 8 0 1 1 11.314 0z" />
+                </svg>
+                <p>Panajachel, Sololá, Guatemala</p>
+            </div>
+            <a class="boton" href="#">Contactar</a>
+        </div> <!-- .contenido-hero --> 
+    </section>
+    
+    <main class="contenedor sombra">
+        <h2>Mis Servicios</h2>
+
+        <div class="servicios">
+            <section class="servicio">
+                <h3>Transportes pesados</h3>
+                <div class="iconos">
+                    <svg> 
+                        <img class="imgicon" src="/PROYECTO/img/c2-turbo.png"  alt="">
+                    </svg>
+                </div>
+                <p> C2 Turbo: un tipo de vehiculo para mudanza</p>
+                <a class="boton" href="#">Saber más</a>
+            </section>
+        
+            <section class="servicio">
+                <h3>Plataformas</h3>
+                <div class="iconos">
+                    <img class="imgicon" src="/PROYECTO/img/servicio-de-carga-pesada-empresa-de-transportes-de-carga-pesada-en-lima-peru.jpg" alt="">
+                </div>
+                <p>Transporte de plataformas para llevar carga  </p>
+                <a class="boton" href="#">Saber más</a>
+            </section>
+
+            <section class="servicio">
+                <h3>Trailers</h3>
+                <div class="iconos">
+                    <svg>
+                        <img class="imgicon" src="/PROYECTO/img/c3.png" alt="">
+                    </svg>
+                </div>
+                <p> Camiones y traillers para carga de alto grado   </p>
+                <a class="boton" href="Portafolio.html">Saber más</a>
+            </section>
+        </div> <!--.servicios-->
+  
+
+    </main>
+    <br>
+    
+     {{>footer}}
+
+</body>
+</html>
